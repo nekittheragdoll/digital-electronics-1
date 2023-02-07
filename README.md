@@ -15,11 +15,8 @@ Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-4. And another item.
+1. First ordered list item  
+  - fdfd
 
 * hvezda je tecka
 + plusko nefunguje
