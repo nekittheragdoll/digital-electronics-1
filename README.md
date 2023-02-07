@@ -27,7 +27,8 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 
 > citace
-
+'''
 git status
 git add
 git commit
+'''
