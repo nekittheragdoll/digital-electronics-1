@@ -15,8 +15,9 @@ Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
-1. First ordered list item  
-  - fdfd
+1. First list item
+   - First nested list item
+     - Second nested list item
 
 * hvezda je tecka
 + plusko nefunguje
