@@ -1,6 +1,5 @@
 # Lab 2: Mykyta Syskov
 
-##I CHANGED IT MILLION TIMES, WHY IS IT SHOWING WRONG VERSIONS?!!!?!!?!?!!!?!!?!?!
 
 ### 2-bit comparator
 
@@ -8,16 +7,16 @@
 
    Greater than:
 
-   <img src="images/KMap_Greater.png" width="600">
+   <img src="images/kmapsop.png" width="600">
 
 
    Less than:
 
-	<img src="images/KMap_Less.png" width="600">
+	<img src="images/kmappos.png" width="600">
 
 2. Mark the largest possible implicants in the K-map and according to them, write the equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
-   ![Logic functions](images/Equations.png)
+   ![Logic functions](images/eqns.png)
 
 ### 4-bit comparator
 
