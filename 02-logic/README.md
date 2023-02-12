@@ -6,7 +6,7 @@
 
    Greater than:
 
-   <img src="images/KMap_Greater.png" width="600" alt="KMap_Greater.png">
+   ``<img src="images/KMap_Greater.png" width="600" alt="KMap_Greater.png">
 
 
    Less than:
