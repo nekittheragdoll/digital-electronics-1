@@ -1,5 +1,6 @@
-<<<<<<< HEAD
 # Lab 2: Mykyta Syskov
+
+##I CHANGED IT MILLION TIMES, WHY IS IT SHOWING WRONG VERSIONS?!!!?!!?!?!!!?!!?!?!
 
 ### 2-bit comparator
 
