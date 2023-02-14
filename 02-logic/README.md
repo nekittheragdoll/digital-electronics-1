@@ -47,5 +47,5 @@
     end process p_stimulus;
 ```
 
-2. Link to your public EDA Playground example:
-  `https://www.edaplayground.com/x/r2X_` (se spodnim podtrzitkem!)
+2. Link to your public EDA Playground example:\
+`https://www.edaplayground.com/x/r2X_` (se spodnim podtrzitkem!)
