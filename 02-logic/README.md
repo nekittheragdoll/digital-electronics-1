@@ -48,4 +48,4 @@
 ```
 
 2. Link to your public EDA Playground example:
-https://www.edaplayground.com/x/r2X_
+`https://www.edaplayground.com/x/r2X_` (se spodnim podtrzitkem!)
