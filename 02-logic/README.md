@@ -48,4 +48,4 @@
 ```
 
 2. Link to your public EDA Playground example:
-placeholder
+https://www.edaplayground.com/x/r2X_
