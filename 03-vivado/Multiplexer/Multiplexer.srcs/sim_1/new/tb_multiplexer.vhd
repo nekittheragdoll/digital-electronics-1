@@ -1,24 +1,3 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 21.02.2023 12:21:41
--- Design Name: 
--- Module Name: tb_multiplexer - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -35,30 +14,52 @@ entity tb_multiplexer is
 --  Port ( );
 end tb_multiplexer;
 
-architecture Behavioral of tb_multiplexer is
+architecture testbench of tb_multiplexer is
     signal s_a           : std_logic_vector(2 downto 0);
     signal s_b           : std_logic_vector(2 downto 0);
     signal s_c           : std_logic_vector(2 downto 0);
     signal s_d           : std_logic_vector(2 downto 0);
-    signal s_f_o         : std_logic_vector(1 downto 0);
-    signal s_sel         : std_logic_vector(2 downto 0);
+    signal s_f_o         : std_logic_vector(2 downto 0);
+    signal s_sel         : std_logic_vector(1 downto 0);
 
 begin
     -- Connecting testbench signals with comparator_2bit
     -- entity (Unit Under Test)
-    uut_comparator_2bit : entity work.comparator_2bit
+    uut_tb_multiplexer : entity work.mux_3bit_4to1
         port map(
-            a_i           => s_a,
-            b_i           => s_b,
---            B_greater_A_o => s_B_greater_A,
---            B_equals_A_o  => s_B_equals_A,
-            B_less_A_o    => s_B_less_A
+          	a_i     =>	s_a,
+        	b_i     =>	s_b,
+        	c_i     =>	s_c,
+        	d_i     =>	s_d,
+        	sel_i   =>	s_sel,
+        	f_o     =>	s_f_o
         );
 
     --------------------------------------------------------
     -- Data generation process
     --------------------------------------------------------
     p_stimulus : process
+    begin
+    	s_a <= "001";
+        s_b <= "100";
+        s_c <= "010";
+        s_d <= "101";
+        
+        s_sel <= "00";
+        wait for 100 ns;
+        
+        s_sel <= "01";
+        wait for 100 ns;
+        
+        s_sel <= "10";
+        wait for 100 ns;
+        
+        s_sel <= "11";
+        wait for 100 ns;
+        
+        wait;
+    
+    end process p_stimulus;
 
 
-end Behavioral;
+end testbench;
