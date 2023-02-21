@@ -49,4 +49,4 @@ set_property -dict { PACKAGE_PIN J13   IOSTANDARD LVCMOS33 } [get_ports { f_o[2]
 ```
 \
 \
-`https://www.edaplayground.com/x/RCMD`
+<a href="https://www.edaplayground.com/x/RCMD">https://www.edaplayground.com/x/RCMD</a>
