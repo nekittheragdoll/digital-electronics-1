@@ -1,4 +1,4 @@
-#7-Segment
+# 7-Segment
 
 
 | Symbols | Inputs | a | b | c | d | e | f | g |
