@@ -10,7 +10,7 @@
       {name: 'Common anode: AN(3)', wave: 'xx01..01..01'},
       {name: 'AN(2)', wave: 'xx101..01..0'},
       {name: 'AN(1)', wave: 'xx1.01..01..'},
-      {name: 'AN(0)', wave: 'xx1..01..011'},
+      {name: 'AN(0)', wave: 'xx1..01..01.'},
     ],
     ['Seven-segment data',
       {name: '4-digit value to display', wave: 'xx3333555599', data: ['3','1','4','2','3','1','4','2','3','1']},
