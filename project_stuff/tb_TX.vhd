@@ -26,7 +26,7 @@ begin
 
 	p_clk_gen : process
     begin
-        while now < 300 ns loop -- 30 periods of 100MHz clock
+        while now < 600 ns loop -- 30 periods of 100MHz clock
             sig_clk_100MHz <= '0';
             wait for c_CLK_100MHZ_PERIOD / 2;
             sig_clk_100MHz <= '1';
@@ -37,9 +37,23 @@ begin
 	
     p_btn_gen : process
     begin
-    wait for 50 ns;
+    wait for 52 ns;
     sig_btn <= '1';
     wait for 14 ns;
+    sig_btn <= '0';
+    
+    wait for 100 ns;
+    sig_WORD <= "01111111";
+    wait for 121 ns;
+    sig_btn <= '1';
+    wait for 17 ns;
+    sig_btn <= '0';
+    
+    wait for 100 ns;
+    sig_WORD <= "01000000";
+    wait for 122 ns;
+    sig_btn <= '1';
+    wait for 18 ns;
     sig_btn <= '0';
     wait;
     end process p_btn_gen;
